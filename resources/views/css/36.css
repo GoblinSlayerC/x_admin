@@ -1,0 +1,45 @@
+*{margin: 0px; padding: 0px;font-family:'Microsoft YaHei';}
+a{text-decoration: none;}
+ul, li{list-style: none;}
+i,em{font-style:normal;}
+input{outline:0;font-size:13px;}
+img{border:none;}
+table{width:100%;overflow:hidden;border-collapse: collapse;border-spacing: 0;}
+.fl{float:left;}
+.fr{float:right;}
+.clear{margin:0;padding:0;width:0;height:0;line-height:0;clear:both;display:block;}
+.j_top{height:130px;background:#dc2f62;overflow:hidden;}
+.j_top div.fl{margin:20px 0 0 30px;}
+.j_top div.fr{margin:20px 30px 0 0;}
+.j_top .tit{color:#eee;font-size:14px;margin-bottom: 5px}
+.j_top .num{overflow:hidden;}
+.j_top .num span,.j_top .num i{display:block;float:left;color:#eee!important;}
+.j_top .num span{font-size:25px;}
+.j_top .num i{font-size:13px;width:20px;height:20px;line-height: 20px;margin:10px 0 0 5px;}
+.j_top .coin .num i{background:url(http://www.17yy.com/api/test/jinbi/images/coin.png) no-repeat;}
+.j_top .desc{float:left;width:100%;text-align:center;color:#e8e8e8;font-size:12px;margin-top:20px;}
+.j_body{background:#fff;overflow: hidden;}
+.j_body ul{margin:0 20px;}
+.j_body .nav{overflow:hidden;border-bottom: 1px solid #eaeaea;}
+.j_body .nav li{float: left;width: 230px;height: 50px;line-height: 50px;text-align: center;color: #a2a2a2;cursor:pointer;}
+.j_body .nav li.on{color: #333;border-bottom:1px solid #dc2f62;}
+.j_body .detail{height:460px;overflow: hidden;overflow-y: auto;}
+.j_body .detail li{overflow:hidden;height:75px;border-bottom:1px solid #eaeaea;}
+.j_body .detail li div.fl{margin-top:15px;}
+.j_body .detail li .tit{font-size:15px;color: #666;margin-bottom:5px;}
+.j_body .detail li .time{font-size:13px;color:#a2a2a2;}
+.j_body .detail li span{font-size:15px;margin-top: 25px}
+.j_body .detail li span.add{color:#dc2f62;}
+.j_body .detail li span.cut{color:#a2a2a2;}
+.j_body .sum{color: #a2a2a2;font-size: 14px;text-align: center;margin: 10px 0;}
+.j_body .sum i{color: #dc2f62;font-size: 14px;}
+#jinbi{position:absolute;right: -130px;top: -44px;z-index: 1000;}
+#hongbao {display: block;width: 65px;height: 65px;position: absolute;top: 43px;left: 118px;text-align: center;line-height: 85px;color: #fff3d1;background: url(http://css.17yy.com/images/hb_l.png?v=0411) no-repeat 15px 12px;overflow: hidden;font-size: 12px;}
+#hongbao span{display: block;width: 30px;height: 37px;text-align:center;line-height:50px;color:#fff3d1;font-size:12px;margin:13px 0 0 17px;}
+#hongbao span.khb{background:url(http://css.17yy.com/images/khb_l.png?v=1) no-repeat;}
+#hongbao span{display:none;}
+#coin::-webkit-scrollbar {width: 14px;height: 14px;}
+#coin::-webkit-scrollbar-track,::-webkit-scrollbar-thumb {border-radius: 999px;border: 5px solid transparent;}            
+#coin::-webkit-scrollbar-track {box-shadow: 1px 1px 5px rgba(0,0,0,.2) inset;}            
+#coin::-webkit-scrollbar-thumb {min-height: 20px;background-clip: content-box;box-shadow: 0 0 0 5px #ccc inset;}
+#coin::-webkit-scrollbar-corner {background: transparent;}

@@ -1,0 +1,270 @@
+html, body, div, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td,a {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+a:hover{color:#d30000}
+body{position:relative;background:#fff url(http://css.17yy.com/images/yx_bk424.jpg) no-repeat center 33px}
+#al_nv_c{margin:0 auto}
+/**#game{position:relative;width:965px;margin:0 auto;overflow:hidden}**/
+#game{position:relative;width:1180px;margin:0 auto;overflow:hidden}
+#gm_u{width:100%;height:55px;overflow:hidden;margin:0 auto;padding-top:10px}
+#top_L,#top_R,#top_c{float:left;z-index:5;display:block;width:59px;height:55px;overflow:hidden;background-image: url(http://css.17yy.com/images/gcon_rep.png);}
+#top_L{background: url(http://css.17yy.com/images/lt.png) no-repeat;}
+#top_R{background-position:0 -56px}
+#top_c{z-index:4;width:1062px;background-repeat:repeat-x;background-position:0 -267px}
+#jb1{float:left;display:block;width:364px;height:55px;}
+#gmd_box{margin:0 auto;width:100%;overflow:hidden;z-index:12}
+#foot_L,#foot_R{float:left;overflow:hidden;width:59px;height:70px;background-image:url(http://css.17yy.com/images/gcon_rep.png);background-repeat:no-repeat}
+#foot_L {background-position: 0 -120px;}
+#foot_R {background-position: 0 -197px;}
+#foot_C{float:left;position:relative;width:1062px;background: #000;}
+#foot_C_b{width:100%;height:6px;background:url(http://css.17yy.com/images/bb.png?v=1) repeat-x;}
+#gm2_1{float:left;width:100%;height:55px;margin-left:-364px}
+#gm2_1 h1{float:left;word-wrap:break-word;word-break:break-all;width:380px;height:55px;line-height:55px;color:#e8e8e8;font-size:18px;font-family:"ºÚÌå";font-weight:400;overflow:hidden}
+.jia{float:left;margin:17px 0 0 5px;width:117px;height:23px;display:block;background:url(http://css.17yy.com/images/gcon_ico.png) no-repeat -151px -234px}
+#p_n{margin:19px 0 0 5px;width:245px;height:25px;float:right}
+.score_tou{float:left;width:60px;height:25px;line-height:25px;color:#999;display:inline}
+#p_n .star span{display:inline-block;float:left;margin-right:5px;width:19px;height:18px;cursor:pointer;background-image:url(http://css.17yy.com/images/gcon_ico.png);background-repeat:no-repeat}
+#p_n .star span.out{background-position:-281px -26px}
+#p_n .star span.over{background-position:-259px -26px}
+#p_n .left_self{display:none;line-height:20px;float:left;color:#999;width:50px;height:25px}
+#current_rate{float:left;width:60px;height:25px;line-height:25px;margin-top:1px}
+#p_n .right_self{width:233px;float:left;margin:2px 0 0 0}
+#current_rate span{color:#999;line-height:25px;text-align:center;font-weight:400;text-align:right}
+#current_rate{font-weight:700;color:#999;line-height:25px;text-align:right}
+#gamediv{margin:0 auto;width:100%;height:500px;background:#000;position:relative;overflow:hidden}
+#center_L,#center_R{width:12px;float:left;height:100%;overflow:hidden;}
+#center_L{background: #000 url(http://css.17yy.com/images/lb.png) repeat-y left;}
+#center_R{background: #000 url(http://css.17yy.com/images/rb.png) repeat-y right;float: right;}
+#game_box{height:495px;float:left;z-index:2;width:1156px;margin:0 auto;text-align:center;overflow:hidden;background: #303030;}
+#game_in2{background:#303030;width:100%;margin:0 auto;overflow:hidden}
+.gm_handle{width: 100%;float: none;margin: 0px auto;overflow: auto;overflow-x: hidden;height: 60px;margin-bottom: 3px;padding: 0px;background: #000;border: none;position: relative;z-index: 1000;line-height: 16px;color: #cecece;}
+.gm_handle img{margin-right:10px}
+.gm_handle p{font-size:12px;color:#cecece;}
+.g_ad{position:absolute;right:-44px;top:4px;border:1px solid #636363;height:60px;width:468px;overflow:hidden}
+#gm2_2 {padding-top: 0px;width: auto;height: auto;overflow: hidden;position: relative;margin: 8px 50px 8px;}
+#gm2_2 a{letter-spacing: 2px;display: block;color: #ececec;height: 24px;line-height: 24px;text-align: center;border-radius: 100em;white-space: nowrap;float: left;padding: 0px 12px;font-size: 12px;}
+#gm2_2 .present,#gm2_2 .featTask,#gm2_2 .copy{float:right;}
+#gm2_2 a:hover{background-color: #ff6429;}
+
+#wudiBox{width:auto;margin: 8px 62px 0px;height:auto;text-align: left;}
+#wudiBox .wudigame{overflow: hidden;position:relative;}
+#wudiBox .wudigame ul,.wudigame .wudi_right{overflow:hidden;float:left;}
+#wudiBox .wudigame ul li{float:left;margin-right: 10px;}
+#wudiBox .wudigame ul li a{display:block;width: 105px;}
+#wudiBox .wudigame ul li img{border: 1px solid #80a1bc;}
+#wudiBox .wudigame ul li p{color:#fff;font-size: 12px;margin-top: 3px;max-height: 50px;overflow: hidden;}
+#wudiBox .wudigame .wudi_right{height: 80px;line-height: 80px;margin-left: 10px;}
+#wudiBox .wudigame .wudi_right a{color:#fff;float: left;}
+#wudiBox .wudigame .wudi_right a.wudiHref{font-size:15px;}
+
+#myhistory{width: 1180px;margin: 20px auto 0;overflow:hidden;border: 1px solid #e3e3e3;}
+#myhistory .h_tit{float:left;width:115px;height:42px;background: url(http://css.17yy.com/images/colour.png) no-repeat left;}
+#myhistory ul{float:left;overflow:hidden;height:42px;width:1065px}
+#myhistory ul li{float:left;margin-right: 30px;}
+#myhistory ul li a{display:block;height:42px;line-height:42px;color:#666;font-size:14px;}
+#myhistory ul li a:hover{text-decoration:underline;}
+
+#g_else{width:1170px;margin:5px auto 0}
+.else_L{float:left;width:850px;overflow:hidden;border:1px solid #b2d5f1;background:#fff}
+.else_tou1{z-index:25;margin:4px 0 0 25px;background:url(http://css.17yy.com/images/gcon_rep.png) no-repeat left -411px;width:120px;height:24px;line-height:24px;padding:1px 0 0 12px;color:#757575;font-size:14px;font-weight:700}
+.else_tou2{background:url(http://css.17yy.com/images/gcon_rep.png) no-repeat left -412px;padding-left:12px;height:24px;margin:5px 10px 0 16px;line-height:24px;color:#757575;font-size:14px;font-weight:700}
+.else_tou2 h2{line-height:24px;color:#757575;font-size:14px;font-weight:700;float:left}
+.pl_ab{margin: 5px 15px 10px;}
+.pl_ab li {float: left;overflow: hidden;width: 116px;margin: 2px 0px 5px;height: 100px;text-align: center}
+.pl_ab li a img {display: block;margin: 1px auto;width: 100px;height: 75px;border: 1px solid #B2D5F1}
+
+.p3_tu{float:left;overflow:hidden;width:108px;margin:2px 0 5px;padding:0 6px;text-align:center;white-space:nowrap}
+.p3_tu a img{display:block;margin:1px auto;width:100px;height:75px;border:1px solid #b2d5f1}
+#p2_1,#p3_1,#p4_1,#p5_1{display:none}
+.rand{float:right;display:block;margin-top:2px;width:76px;text-indent:26px;height:21px;line-height:21px;line-height:22px\9;color:#3b8cbb;font-size:14px;font-weight:700;background:url(http://css.17yy.com/images/gcon_ico.png) no-repeat -33px -44px}
+#relative_ban li,#same_ban li{float:left;height:100px;margin:5px 0;overflow:hidden;text-align:center;width:120px}
+#relative_ban li img,#same_ban li img{display:block;margin:1px auto;width:100px;height:75px;border:1px solid #b2d5f1}
+#relative_ban li a,#same_ban li a,.pl_ab li a,.p3_tu a{line-height:28px;color:#333;}
+.intro1{width:815px;margin:2px auto;height:24px;line-height:24px;overflow:hidden;padding-top:5px}
+.pf{width:210px;float:left;display:inline;padding-left:10px;background:url(http://css.17yy.com/images/gcon_rep.png) no-repeat left -445px}
+.pf label{height:24px;line-height:24px;float:left;display:block;width:60px;color:#333}
+.cate{float:left;color:#999}
+.cate li{display:inline;color:#333;height:24px;line-height:24px;margin:0 4px;padding-left:10px;background:url(http://css.17yy.com/images/gcon_rep.png) no-repeat left -451px}
+.cate li span{color:#666}
+.cate li a{color:#06c;text-decoration:underline}
+.cate li a:hover{color:#d30000}
+.intro2{width:805px;margin:0 auto 0 auto;background:#ffc;overflow:hidden;color:#333;line-height:24px;padding:0 5px 7px 5px}
+.bor1{border-bottom:1px dotted #e3e3e3}
+.intro_tou2{margin-left:4px;color:#333;font-weight:700;background:url(http://css.17yy.com/images/gcon_rep.png) no-repeat left -475px;padding-left:13px;height:24px;line-height:24px;font-size:12px;}
+.intro2 div,.intro2 p,.intro2 ul{width:805px;color:#333;line-height:24px;text-indent:2em;margin:7px 0 3px}
+.line_2{background:url(http://css.17yy.com/images/yd_w.png) repeat-x left bottom;height:1px;width:815px;margin:3px auto}
+.save3_2{margin:9px auto 25px;width:810px;height:29px;line-height:29px;color:#000;background:#ecf7ff;overflow:hidden;text-indent:10px;}
+.save3_2 a{color: #0082fb;font-size: 14px;letter-spacing: 0.3px;}
+.save3_2 a:hover{text-decoration:underline;}
+.save3_2 label,.save3_2 p{display:block;width:8px;height:29px;background-image:url(http://css.17yy.com/images/gcon_ico.png);background-repeat:no-repeat}
+.save3_2 p{float:left;margin-right:15px;background-position:-236px -137px}
+.save3_2 label{float:right;background-position:-245px -137px}
+#litpic{opacity:0;filter:alpha(opacity=0);position:relative;left:0;top:-23px}
+.else_R{width:302px;float:right}
+.el_R_tou{overflow:hidden;width:235px;height:31px;border:1px solid #b2d5f1;background:url(http://css.17yy.com/images/gcon_rep.png) repeat-x 0 -518px}
+.el_R_tou h2{display:inline;float:left;margin:5px 0 0 16px;color:#757575;font-size:14px;font-weight:700;height:24px;line-height:25px;background:url(http://css.17yy.com/images/gcon_rep.png) no-repeat left -411px;padding-left:17px;width:105px}
+.el_r_con{width:235px;border:1px solid #b2d5f1;border-top:0;background:#fff;padding-bottom:8px}
+#pf li{margin:4px 4px 0 0;display:inline;float:left;width:15px;height:15px;background-image:url(http://css.17yy.com/images/com_clas.png);background-repeat:no-repeat}
+.star_2{background-position:-141px 0}
+.star_w{background-position:-160px 0}
+.star_r{background-position:-141px -17px}
+.star_g{background-position:-158px -17px}
+.star_g_border{background-position:-159px -34px}
+.race_list{width:222px;height:20px;margin:0 auto;padding:5px 0;border-bottom:1px solid #e9eaeb}
+.race_list li{height:20px;margin-top:2px;width:222px;position:relative}
+.race_tou1{display:block;width:13px;top:4px;overflow:hidden;position:absolute;height:13px;left:3px;background-image:url(http://css.17yy.com/images/gcon_ico.png);background-repeat:no-repeat}
+.g_name1{width:150px;height:20px;line-height:20px;overflow:hidden;position:absolute;left:25px;top:0}
+.g_name1 a{color:#333;height:20px;line-height:20px}
+.g_name1 a:hover{color:#c00}
+.race_date{width:41px;height:20px;line-height:20px;color:#999;position:absolute;left:177px;top:0}
+.race1{width:15px;background-position:0 0}
+.race2{width:15px;background-position:-18px 0}
+.race3{width:15px;background-position:-36px 0}
+.race4{background-position:-54px 0}
+.race5{background-position:-70px 0}
+.race6{background-position:-86px 0}
+.race7{background-position:-103px 0}
+.race8{background-position:-120px 0}
+.race9{background-position:-135px 0}
+.race10{background-position:-150px 0}
+.race11{background-position:-165px 0}
+.race12{background-position:-180px 0}
+.race13{background-position:-195px 0}
+.race14{background-position:-210px 0}
+.race15{background-position:-225px 0}
+.race16{background-position:-240px 0}
+.race17{background-position:-257px 0}
+.race18{background-position:-272px 0}
+.race19{background-position:-287px 0}
+.race20{background-position:-303px 0}
+#game_in{margin:0 auto;background:#303030;overflow:auto;}
+#addiv{height:495px;margin:0 auto 3000px}
+#loadingdiv{z-index:5;POSITION:relative;margin:0 auto;width:771px;top:-3070px;padding-top:49px;height:20px;overflow:hidden;text-align:left}
+#loadingdiv .loadingbar{z-index:6;text-align:left;BACKGROUND:#96be50;width:769px;height:18px;padding:1px;background:url(http://css.17yy.com/images/clo_ad2015.png) no-repeat left 0}
+#loadnet{text-align:left;WIDTH:100%;HEIGHT:100%;OVERFLOW:hidden;margin:0 auto;text-align:center}
+#pbar{width:0;text-align:left;line-height:18px;background:#a7d200;height:18px;overflow:hidden}
+#loadtext{text-align:left;font-family:verdana;COLOR:#fff;font-size:14px;position:absolute;right:8px;top:22px;height:20px;line-height:20px}
+.key{display:inline-block;vertical-align:middle;text-align:center;overflow:hidden;margin:0 5px;background-image:url(http://css.17yy.com/images/key.png);background-repeat:no-repeat}
+.m_left{background-position:0 0;width:18px;height:27px}
+.m_right{background-position:0 -35px;width:18px;height:27px}
+.m_move{background-position:0 -70px;width:24px;height:27px}
+.m_ml{background-position:0 -105px;width:24px;height:27px}
+.alt{background-position:0 -140px;width:39px;height:23px}
+.enter{background-position:0 -172px;width:49px;height:23px}
+.shift{background-position:0 -204px;width:49px;height:23px}
+.ctrl{background-position:0 -236px;width:39px;height:23px}
+.tab{background-position:0 -268px;width:39px;height:23px}
+.end{background-position:0 -300px;width:39px;height:23px}
+.space{background-position:0 -332px;width:77px;height:23px}
+.left{background-position:0 -364px;width:24px;height:23px}
+.right{background-position:0 -396px;width:24px;height:23px}
+.up{background-position:0 -428px;width:24px;height:23px}
+.down{background-position:0 -460px;width:24px;height:23px}
+.lf{background-position:0 -492px;width:49px;height:23px}
+.ud{background-position:0 -524px;width:49px;height:23px}
+.none{background-position:0 -556px;width:24px;height:23px}
+.wasd{background-position:0 -588px;width:53px;height:30px}
+.m_lfud{background-position:0 -628px;width:53px;height:30px}
+.move{background-position:0 -677px;width:22px;height:22px}
+#flashgame{display:inline;margin:0 auto;position:relative;z-index:10}
+#full_navi{display:none;position:relative;background:url(http://css.17yy.com/images/gcon_rep.png) repeat-x left -550px;width:100%;overflow:hidden;text-align:center;height:35px;line-height:35px;color:#006;font-size:18px;font-family:"ºÚÌå"}
+#full_navi a.close{cursor:pointer;display:block;width:25px;height:25px;background:url(http://css.17yy.com/images/gcon_ico.png) no-repeat -258px -138px;top:5px;right:50px;position:absolute}
+.else_ab1{width:815px;margin:12px auto 1px auto;padding:5px 0 9px;background:url(http://css.17yy.com/images/yd_w.png) repeat-x left bottom}
+.ab_L{width:27px;height:65px;float:left;background:url(http://css.17yy.com/images/gcon_ico.png) no-repeat -236px -70px}
+#ab_R{width:780px;float:right;overflow:hidden;height:77px;position:relative}
+#ab_R li{display:inline;float:left;height:77px;margin:0 2px;overflow:hidden;position:relative;width:66px;text-align:center}
+#ab_R li a{display:block;margin:0 auto;width:48px;line-height:24px;cursor:pointer;color:#333;}
+#ab_R li a img{height:48px;width:48px;display:block}
+.tu48{background:url(http://css.17yy.com/images/back48_1227.png) no-repeat left top;height:51px;left:9px;position:absolute;top:0;width:48px}
+.el_R_ad2{width:230px;height:254px;margin:6px auto;overflow:hidden}
+.el_R_ad2 iframe{height:368px;width:206px}
+.alert1{display:none;position:absolute;left:280px;top:180px;z-index:20;width:400px}
+.alert_down,.alert_up{width:400px;height:15px;overflow:hidden;background-image:url(http://css.17yy.com/images/gcon_ico.png);background-repeat:no-repeat}
+.alert_up{background-position:-13px -364px}
+.alert_down{background-position:-13px -379px}
+.alert_con{width:375px;padding-left:25px;background:url(http://css.17yy.com/images/gcon_vrep.png) repeat-y -120px top}
+.zhu{padding-top:15px;color:#333;font-size:24px;font-weight:700;height:24px;line-height:24px;margin:0 0 30px 30px;position:relative;width:315px}
+.close1{overflow:hidden;display:block;width:11px;height:11px;position:absolute;right:0;top:21px;cursor:pointer;background-image:url(http://css.17yy.com/images/gcon_ico.png);background-repeat:no-repeat;background-position:0 -364px}
+.close1:hover{background-position:0 -376px}
+.pw_list{margin:0 0 19px 30px}
+.pw_L{width:73px;float:left;line-height:32px;color:#333;font-size:14px}
+.pw_R{float:left;width:183px;overflow:hidden}
+.pw_R input{position:relative\9;left:-30px\9;display:block;overflow:hidden;font-family:Arial,Helvetica,sans-serif;border:0;width:173px;height:21px;line-height:20px;padding:5px 4px 4px 5px;background:url(http://css.17yy.com/images/gcon_ico.png) no-repeat -223px -397px}
+.login{width:180px;margin:7px 0 0 108px;height:36px;position:relative}
+.login input{cursor:pointer;position:absolute;top:0;left:0;border:0;width:110px;height:36px;background:url(http://css.17yy.com/images/gcon_ico.png) no-repeat -112px -396px}
+.login span{position:absolute;right:6px}
+.login span a{color:#1483d9;text-decoration:underline;line-height:19px}
+.line1{margin-left:15px;margin-top:29px;margin:29px 0 0 15px;width:253px;height:1px;overflow:hidden;background:url(http://css.17yy.com/images/gcon_vrep.png) no-repeat -523px top}
+.join{margin-left:15px;width:253px;height:24px;line-height:24px;color:#999}
+.save_suc{z-index:20;background:#fff;margin:0 auto;width:320px;height:80px;border:1px solid #ccc;margin:0 auto}
+.save_suc p{font-size:16px;height:25px;line-height:25px;text-align:center;color:#0fc6ed;font-weight:700;margin-top:20px}
+.save_suc a{float:right;color:#333;text-decoration:underline;text-align:right;height:20px;line-height:20px;margin:10px 10px 0 0}
+.log_err{text-align:center;width:380px;height:140px;line-height:140px;margin:60px auto;color:#C00;background:#fff;border:1px solid #ccc}
+.log_err a{color:#0fc6ed;text-decoration:underline}
+#scoretitle{color:#ff8c35;line-height:20px;width:105px;margin-top:1px;float:right;font-size:12px;}
+#p_n .star{width:120px;float:left;margin-right:7px}
+.else_ab a{float:left;overflow:hidden;width:250px;font-size:12px;color:red;height:22px;line-height:22px;margin:0 40px 5px 0;text-decoration:underline}
+.else_ab a:hover{color:#d30000}
+div.else_ab{text-indent:0;width:642px;padding-left:23px}
+#loadImg{display:none;width:875px;height:16px;text-align:center;margin:5px auto;position:relative;top:-20px}
+#loadImg img{width:16px;height:16px}
+#iframeTest{position:relative;top:-34px;left:25px}
+#most_relative,#same{background:#ffc}
+#relative_ban,#same_ban{overflow:hidden;margin-left:10px;}
+.line_same{width:900px;height:1px;margin:0 auto;position:relative;overflow:hidden;background:url(http://css.17yy.com/images/yd_w.png) repeat-x left bottom}
+#most_relative h2,#same h2{background:url(http://css.17yy.com/images/gcon_rep.png) no-repeat left -407px;color:#757575;font-size:14px;font-weight:700;height:24px;line-height:24px;margin-left:16px;padding:5px 0 3px 12px;position:relative;width:670px}
+#most_relative h2{color:#ec4f4f}
+#bd_wrap{display:none;width:48px;background:url(http://css.17yy.com/images/gcon_vrep.png) repeat-y -773px top;padding-top:7px;margin-left:2px}
+#bd_wrap #bdshare{margin:0;padding:0;overflow:hidden;float:none}
+#bdshare a{padding:0;width:24px;height:24px;overflow:hidden;margin-bottom:11px;float:none;margin-left:13px;background-image:url(http://css.17yy.com/images/gcon_ico.png);background-repeat:no-repeat}
+#bdshare a.bds_qzone{background-position:-42px -18px;background-position:-42px -18px!important}
+#bdshare a.bds_renren{background-position:-126px -18px;background-position:-126px -18px!important}
+#bdshare a.bds_kaixin001{background-position:-98px -18px;background-position:-98px -18px!important}
+#bdshare a.bds_tsina{background-position:-70px -18px;background-position:-70px -18px!important;margin-bottom:3px}
+.bds_tools a{float:none}
+#share1{overflow:hidden}
+#gm2_2 a.bd_share1{display:block;width:29px;height:50px;background:url(http://css.17yy.com/images/gcon_ico.png) no-repeat 2px -13px;margin-left:9px}
+#gm2_2 a.bd_share2{display:block;width:48px;height:38px;background:url(http://css.17yy.com/images/gcon_ico.png) no-repeat -159px -19px;margin:0 0 1px 3px}
+#s_box{position:absolute;left:0;top:64px;z-index:100}
+#bulb{position:absolute;top:15px;right:17px;z-index:1002}
+#bulbImage{overflow:hidden;width:40px;height:30px;background-repeat:no-repeat;background-position:0 -69px;display:none}
+#bulbImage:hover{background-position:0 -121px}
+.normalScreen #bulbImage{background-image:url(http://css.17yy.com/images/gcon_ico.png)}
+.fullScreen #bulbImage{background-image:url(http://css.17yy.com/images/fullScreen_bubble.png)}
+.closeBulb,.openBulb{width:40px;height:14px;display:none;}
+.normalScreen .closeBulb,.normalScreen .openBulb{background-image:url(http://css.17yy.com/images/gcon_ico.png)}
+.fullScreen .closeBulb,.fullScreen .openBulb{background-image:url(http://css.17yy.com/images/fullScreen_bubble.png)}
+.closeBulb{background-position:0 -106px}
+.openBulb{background-position:0 -158px}
+.share_foot{width:48px;height:4px;background:url(http://css.17yy.com/images/gcon_ico.png) no-repeat -225px -20px}
+.sa_span1{color:#fe0000;font-weight:700}
+.sa_span2{color:#fe0000}
+#smart_arrow{left:28px;top:26px}
+.clic{display:none}
+#web_yx{display:block;width:960px;height:90px;overflow:hidden;margin:10px auto;border:1px solid #b2d5f1}
+.pf_s{margin-left:10px;margin-left:10px\9;width:95px;height:15px}
+.pf_s li{display:inline;float:left;width:15px;height:15px;margin:1px 4px 0 0;background-image:url(http://css.17yy.com/images/com_clas.png);background-repeat:no-repeat}
+.strongb{margin-right:3px}
+.high_blue{color:#0082fb}
+.editor_note p{color:#369}
+#webgame_tj{display: block;width: 1180px;height: 470px;overflow: hidden;margin: 15px auto;}
+.el_R_webgametop{width:230px;height:254px;margin:6px auto;overflow:hidden}
+.webgame_top{margin-left:0;margin-top:2px;padding:0 10px;position:relative;z-index:3;width:146px;border-top:3px solid #59a1f8;border-left:1px solid #b2d5f1;border-right:1px solid #b2d5f1;background:#fff}
+.webgame_top h2{text-align:center;font-family:"Î¢ÈíÑÅºÚ","ËÎÌå",Arial,Helvetica,sans-serif;font-size:14px;color:#333;font-weight:700;width:135px;height:24px;line-height:24px;margin:0 auto;overflow:hidden}
+.webgame_top span{display:block;position:absolute;left:-7px;top:-12px;width:32px;height:44px;background:url(http://css.17yy.com/images/mon_ico.png) no-repeat 0 0}
+.webgame_top_tj{width:99%;border:1px solid #bedbf6;position:relative;top:-1px}
+#webgamelist li{background:url(../images/comm_bg.png) no-repeat;float:left;width:88%;height:30px;margin-top:0;line-height:30px;border-bottom:1px dashed #cdcdcd;background-position:right -53px}
+#webgamelist li a{font-size:13px;color:#333;font-family:"Microsoft Yahei",Arial,Helvetica,sans-serif}
+#webgamelist li a:hover{color:red}
+#webgamelist li i{float:left;width:16px;text-align:center;font-family:georgia;font-size:14px;margin-left:15px}
+#webgamelist li i.red{color:#c00}
+#webgamelist li span{float:left;margin-left:10px;width:120px;height:100%;overflow:hidden}
+#webgamelist li em{font-size:11px;color:#999}
+.kaifu{float:left;margin:17px 0 0 5px;width:70px;height:21px;line-height:21px;display:block;color:#f3f3f3;text-align:center;background-color:#7d7d7d;border-radius:8px;font-size:12px;}
+.kaifu:hover{color:#fff;background-color:#c00000}
+.mycenter:hover{color:red;font-weight:700}
+
+#foot {width: 968px;padding: 20px 0 10px;margin: 0 auto;text-align: center;line-height: 25px;}
+#foot p,#foot a{font-size:12px;color:#333;}

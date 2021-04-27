@@ -1,0 +1,64 @@
+*{margin: 0px; padding: 0px;font-family: 'Microsoft YaHei';}
+a{text-decoration: none;}
+ul, li{list-style: none;}
+ul{overflow:hidden;}
+i,em{font-style:normal;}
+img{border:none;}
+input{outline: 0;}
+.clear{margin:0;padding:0;width:0;height:0;line-height:0;clear:both;display:block;}
+
+#yx_log,#yx_reg{position: fixed;width: 396px;z-index: 10000;background: #fff;border: 2px solid #4c8efa;overflow: hidden;}
+
+.register{position:relative;width:316px;margin: 25px 40px;}
+.register .closeBtn{position:absolute;top:-25px;right:-40px;display:block;float:left;width:25px;height:25px;background:url(http://css.17yy.com/images/x.png?v=1) no-repeat 50% 50%;overflow:hidden;_padding:1px;cursor:pointer;}
+.register .tips{position: absolute;top: 34px;left: 0;width: 316px;height: 20px;line-height: 20px;text-align: center;color: #e85173;font-size: 12px;overflow: hidden;}
+.register .switch_t li{float:left;width:158px;height:28px;line-height:25px;text-align:center;font-size:15px;color: #545454;padding-bottom:1px;border-bottom:1px solid #e4e4e4;cursor:pointer;}
+.register .switch_t li.on{padding-bottom:0;border-bottom:2px solid #4c8efa;}
+.register form{margin-top:28px;}
+.register .line{width:314px;height: 40px;margin-top:15px;position:relative;border:1px solid #ccc;border-radius:3px;}
+.register .line .areaBox{float: left;height:40px;}
+.register .line .atext{margin: 10px 10px 0 0;height: 20px;line-height: 20px;padding-right: 5px;border-right: 1px solid #e0e0e0;}
+.register .line .atext em{display:block;font-size: 13px;padding-right:22px;background: url(http://css.17yy.com/images/down.png) no-repeat right 50%;cursor:pointer;}
+.register .line .aList{position: absolute;top: 36px;left: 30px;z-index: 10;width: 130px;background: #fff;border: 1px solid #ddd;box-shadow: 0 0 3px 0 rgba(0,0,0,0.1);padding: 5px 0;}
+.register .line .aList li{font-size:13px;color:#545454;height:30px;line-height:30px;padding:0 12px;cursor:pointer;}
+.register .line .aList li:hover{background: #f1f1f1;}
+.register .line input{float:left;width: 260px;height:40px;line-height: 40px;border:none;background:#fff;font-size: 13px;}
+/**.register .line input.phoneNumber{width:130px;}**/
+.register .line input.yzm{width:150px;}
+.register .line i{float:left;display:block;width:15px;height:16px;background:url(http://css.17yy.com/images/u_icon.png) no-repeat;overflow:hidden;margin: 12px 8px;}
+.register .line i.email{background-position: 0px -80px;}
+.register .line i.user{background-position: 0px 2px;}
+.register .line i.pwd{background-position: 0px -39px;}
+.register .line i.card{background-position: 0px -121px;}
+.register .line i.phone{background-position: 0px -163px;}
+.register .line i.key{background-position: 0px -208px;}
+.register .line .code{float:right;width:75px;height:30px;margin:5px 6px;}
+.register .line .code img{cursor:pointer;}
+.register .line .c1{float: right;color: #37B5F9;font-size: 13px;height: 40px;line-height: 40px;margin-right: 7px;white-space:nowrap;}
+.register .line span{position: absolute;top: 13px;right: 8px;display:block;width:13px;height:13px;}
+.register .line .ico_right{background:url(http://css.17yy.com/images/ck_right1.gif) no-repeat;}
+.register .switch_b{width:316px;height: 22px;line-height: 20px;text-align: center;margin-top:20px;}
+.register .switch_b span{font-size: 12px;color: #3C3C3C;cursor:pointer;}
+.register .switch_b span i{font-size: 12px;color: #a9a9a9;}
+.register .switch_b span:hover{color: #37B5F9;}
+.register .fpw{height: 20px;line-height: 20px;margin-top: 3px;text-align:right;}
+.register .fpw a{color:#3C3C3C;font-size:12px;}
+.register .fpw a:hover{color:#37B5F9;}
+.register span.log{display: block;width: 316px;height: 42px;line-height: 42px;text-align: center;border-radius: 3px;background-color: #37B5F9;font-size: 16px;color: #fff;cursor: pointer;margin-top:12px;}
+.register span.log:hover{background-color:#2ea8e3;}
+.register .submit{margin-top:15px;}
+.register .submit span{display:block;width: 316px;height:42px;line-height: 42px;border: none;text-align: center;border-radius: 3px;background-color: #37B5F9;font-size: 16px;color: #fff;cursor: pointer;}
+.register .submit span:hover{background-color:#2ea8e3;}
+.register .third_log{margin-top:18px;overflow:hidden;}
+.register .third_log .tit{line-height: 34px;height: 18px;border-bottom: 1px solid #999;text-align: center;}
+.register .third_log .tit span{display: inline-block;font-size: 14px;color: #777;padding: 0 5px;background: #fff;}
+.register .third_log a{height: 46px;width: 46px;display: block;float: left;border-radius: 50%;margin: 26px 30px 0 65px;}
+.register .third_log a.qq{background: #2caeff url(../images/third_login.png) no-repeat 8px 7px;}
+.register .third_log a.wx{background: #6CCD10 url(../images/third_login.png) no-repeat -31px 7px;}
+.register .agree{position: relative;height:26px;margin-top: 10px;}
+.register .agree label{float:left;font-size: 12px;color: #666;padding-left: 18px;cursor:pointer;}
+.register .agree input{position: absolute;left:0px;top:2px;width:13px;height:13px;cursor:pointer;}
+.register .agree a{float:left;color:#279cd2;font-size:12px;}
+
+*html #yx_log,*html #yx_reg{position: absolute;bottom: auto;top: expression(100+((e=document.documentElement.scrollTop)?e:document.body.scrollTop)+'px');}
+*html, *html body {background-image: url(about:blank);background-attachment: fixed;}

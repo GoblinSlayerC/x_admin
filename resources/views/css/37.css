@@ -1,0 +1,72 @@
+/**中和g_con2020.css样式**/
+.tu48{display:none;}
+#g_else{width:1180px;}
+#iframeTest{top:0;left:0;margin-top: 10px;}
+#ab_R{float:none;}
+.line_same{display:none;}
+#same{margin-bottom:10px;}
+#relative_ban, #same_ban{margin-left:0;}
+#most_relative, #same{background:none;}
+#most_relative h2, #same h2 {background: none;margin-left: 0;padding: 0;position: relative;width: auto;}
+#relative_ban li, #same_ban li {float: left;height: 120px;margin: 3px 25px 15px 3px;overflow: hidden;text-align: center;width: 127px;border: 1px solid #73c2ec;position: relative;}
+#relative_ban li a, #same_ban li a,.tj3d li a{color: #333;display: block;line-height: 22px;}
+#relative_ban li img, #same_ban li img,.tj3d li img{margin: 0;width: 125px;height: 94px;border: none;padding: 1px;}
+#gm2_1 h1{width:360px;}
+#gm2_1 img.tx{display: block;float: left;width: 24px;height: 24px;margin-top: 18px;border-radius:50%;}
+#gm2_1 .upload,#gm2_1 .time{float: left;display: block;height: 16px;font-size: 12px;overflow: hidden;}
+#gm2_1 .upload{color: #d6d6d6;max-width:88px;letter-spacing: 0.5px;margin: 22px 0 0 6px;*width:88px;}
+#gm2_1 .time{color:#a5a5a5;margin: 23px 0 0 20px;}
+#gm2_1 .upload2{float: left;display: block;color: #ececec;height: 24px;line-height: 24px;border-radius: 100em;white-space: nowrap;padding: 0px 12px;font-size: 12px;margin: 20px 0 0 30px;background:#7d7d7d;}
+#gm2_1 .upload2:hover{background:#ff6429;}
+#jizhu{background: #ffc;}
+#else_ab1{margin-bottom:15px;}
+
+#fdsx{position:absolute;top:42%;right:25px;width:30px;height:80px;display:none;z-index:1003;}
+#fdsx a{display:block;width:30px;height:30px;background:url(http://css.17yy.com/images/fdsx.png) no-repeat;}
+#fdsx a.fd{background-position: 0px 0px;margin-bottom:20px;}
+#fdsx a.fd:hover{background-position: 0px -40px;}
+#fdsx a.sx{background-position: 0px -80px;}
+#fdsx a.sx:hover{background-position: 0px -120px;}
+/**中和g_con2020.css样式**/
+
+#g_else h2{font-size: 15px;height: 12px;line-height: 12px;color: #3d9fe7;padding-left: 7px;border-left: 5px solid #f60;margin-bottom: 10px;}
+.b_l,.b_r .pane{padding:20px;background-color: #fff;box-shadow: 0 0 3px 0 rgba(0,0,0,0.08);margin: 3px;border:1px solid #e6e6e6;}}
+.b_l{width: 800px;}
+.b_l ul{overflow:hidden;}
+.b_l .info{margin-bottom:15px;}
+.b_l .info a.start{display: block;width: 130px;height: 42px;line-height: 42px;background: #f60;font-size: 18px;letter-spacing: 1px;border-radius: 3px;color: #fff;text-align: center;}
+.b_l .info a.start:hover{background: #f78940;}
+.b_l .part1,.b_l .part2{padding: 10px 15px;background: #f8fbfd;overflow: hidden;}
+.b_l .part1 ul li{float: left;font-size: 13px;color:#666;}
+.b_l .part1 ul li a{font-size: 13px;color:#06c;}
+.b_l .part1 ul li a:hover{text-decoration: underline;}
+.b_l .zts li{margin-right:15px;}
+.b_l .zts li.t1{margin-right:0px;}
+.b_l .attrs li{margin-right:10px;}
+.b_l .attrs li i{margin-left: 10px;color:#b2d5f1;font-size: 12px;}
+.b_l .attrs li span{color:#ff6501;font-size: 13px;font-weight:bold;}
+.b_l .part2{margin-top:10px;}
+.b_l .part2 h3{font-weight: normal;font-size: 14px;color:#444;}
+.b_l .part2 p{font-size: 13px;color:#444;line-height: 22px;margin-bottom:10px;}
+.b_l .part2 .getfeat{color: #0082fb;font-size: 14px;letter-spacing: 0.3px;}
+
+.gametj{margin-bottom: 10px;}
+.gametj ul li {width: 127px;float: left;margin: 3px 25px 15px 3px;border: 1px solid #73c2ec;position:relative;text-align:center;height:120px;overflow:hidden;}
+.gametj ul li:hover,#same_ban li:hover{-webkit-box-shadow: 0px 0px 5px red;-moz-box-shadow: 0px 0px 5px red;box-shadow: 0px 0px 5px red;}
+.gametj ul li .game_img{height:96px;}
+.gametj ul li .game_img img {width: 125px;height: 94px;padding: 1px;}
+.gametj ul li .game_info{width:110px;background: #fff;padding: 2px 8px;}
+.gametj ul li .game_info p{height:22px;line-height:22px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.gametj ul li .game_info .name{color:#3c3c3c;font-size:14px;}
+.gametj ul li .game_info .name a{color:#333;font-size:12px;}
+
+.zttj ul li{float:left;margin: 5px 18px 10px 3px;width: 50px;overflow: hidden;text-align: center;height: 70px;}
+.zttj ul li a{font-size:12px;color:#333;}
+.zttj ul li:hover a{color:#f60;}
+.zttj ul li a img{border-radius: 8px;width:50px;height:50px;}
+
+.b_r .pane{width: 270px;margin-bottom: 15px;}
+.userbox img{border-radius: 50%;margin-top: 3px;}
+.userbox div.fl{margin:3px 0 0 12px;width:200px;overflow:hidden;}
+.userbox p.tit{font-weight: bold;font-size: 15px;color: #555;line-height:24px;}
+.userbox p.time{font-size: 12px;color: #888;line-height: 20px;}

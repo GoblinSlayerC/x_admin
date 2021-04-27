@@ -1,0 +1,86 @@
+#easyDialogWrapper .ttBox{height: 30px; line-height: 30px; padding: 6px 30px; border-bottom: solid 1px #eef0f1;}
+#easyDialogWrapper .ttBox .tt{font-size: 16px; display: block; float: left; height: 30px; position: relative; font-family: "Microsoft Yahei", "微软雅黑", "宋体", Arial, Helvetica, sans-serif;}
+#easyDialogWrapper .ttBox .close_btn{ font-family:arial; font-size:25px;font-weight:700; color:#0095d9; text-decoration:none; float:right; }
+#easyDialogWrapper .btnArea{}
+#easyDialogWrapper .btnArea .sgBtn{display: block; cursor: pointer; width: 95px; height: 35px; line-height: 35px; text-align: center;font-size: 15px;margin: 1px 13px; border-radius: 5px;}
+#easyDialogWrapper .btnArea .ok{background-color: #0095d9; color: #FFFFFF;float:right;}
+#easyDialogWrapper .btnArea .cancel{background-color: #546a79; color: #FFFFFF;float:right;}
+#easyDialogWrapper .txtBox{margin: 10px 20px;}
+#easyDialogWrapper .txtBox i{color:#ff0000;}
+.cheader{
+	display: block;
+	float: left; 
+	width: 95%;
+    height: 30px;
+    line-height: 30px;
+    padding: 2px 15px;
+	margin-bottom: 10px;
+	font-size: 15px;
+    border-bottom: solid 1px #eef0f1;
+	font-family: "Microsoft Yahei", "微软雅黑", "宋体", Arial, Helvetica, sans-serif;
+}
+.featnumStyle{
+	display: inline-block;
+	color: #ff0000;
+	width: 40px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+.content1{
+	margin: 1px 10px 5px;
+}
+.webgame_gx{
+	display: inline-block;
+	width: 45%;
+	padding-left: 10px;
+}
+
+.webgame_gx li {
+    height: 66px;
+}
+
+.webgame_gx li a {
+    color: #4c4743;
+}
+.webgame_gx span {
+    width: 66px;
+}
+.webgame_gx span .featnumStyle{
+	display: inline-block;
+	color: #ff0000;
+	width: 40px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.webgame_gx li a img {
+    width: 55px;
+    height: 55px;
+    margin: 7px auto;
+}
+.webgame_gx li a .server_gamename {
+    display: inline-block;
+    width: 130px;
+    font-family: "Microsoft Yahei",Arial,Tahoma,Helvetica,"SimSun","Hiragino Sans GB",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 3px 24px 26px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.webgame_gx p {
+    font-size: 12px;
+    color: #999;
+    line-height: 20px;
+    font-weight: normal;
+}
+.content_say{
+    margin: 7px auto;
+	color: #898989;
+	line-height: 18px;
+}

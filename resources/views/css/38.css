@@ -1,0 +1,60 @@
+*{margin:0;padding:0;font-family:'Microsoft YaHei';}
+a{text-decoration:none;}
+li,ul{list-style:none;}
+input{outline:0;font-size:13px;}
+img{border:none;}
+i{font-style:normal;}
+.fl{float:left;}
+.fr{float:right;}
+.clear{margin:0;padding:0;width:0;height:0;line-height:0;clear:both;display:block;}
+
+/**¨ª¡¤2?**/
+#nav {width: 100%;height: 40px;text-align: center;position: relative;z-index: 1000;background: #282828;box-shadow: 0 2px 5px rgba(0,0,0,.2);}
+#nav .nav_con{width:1200px;height:40px;margin:0 auto;background: #282828;}
+#nav .nav_con .nav_logo a {display: block;width: 95px;margin-top: 8px;}
+#search {float: left;margin: 7px 40px 0;position: relative;text-align: left;}
+#keyboard {border: none;height: 16px;line-height: 16px;width: 180px;border-radius: 20px;padding: 5px 30px 5px 13px;background: #f2f2f2;}
+#search .soso {position: absolute;top: 0;right: 0;width: 30px;height: 26px;border: none;cursor: pointer;background: url(http://css.17yy.com/images/search2020.png) no-repeat 0 50%;}
+#search .soso:hover{background: url(http://css.17yy.com/images/search2020_2.png) no-repeat 0 50%;}
+#smart_arrow {position: absolute;width: 12px;padding: 0 12px 0 0;}
+#smart_pop{width:230px;padding: 5px 0;position:absolute;z-index:100;top:34px!important;background: #fff;border:1px solid #e6e6e6;box-shadow: 0 0 3px 0 rgba(0,0,0,0.08);overflow:hidden;}
+#smart_arrow{position:absolute;width:12px;padding:0 12px 0 0}
+#smart_arrow .hide{position:absolute;padding:0 12px 0 0;width:12px}
+#smart_arrow .show{position:absolute;padding:0 12px 0 0;width:12px}
+#smart_pop div{height:24px;line-height:24px;overflow:hidden}
+#smart_pop div.mouseover{background:#f4f4f5}
+#smart_pop div.mouseout{background:#fff}
+#smart_pop div.left1{width:150px;height:17px;padding:5px 0 0 5px;float:left;line-height:14px;color:#666;text-align:left;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#smart_pop div.right1{height:17px;padding:5px 3px 0 0;line-height:14px;text-align:right;float:right;color:#666;overflow:hidden}
+#smart_pop div.font_blue{cursor:pointer;font-size:13px;font-family:Arial;color:#2C98F7;margin:0 10px;}
+#smart_pop div.font_blue strong{color: #e85173;}
+#smart_pop div.close{cursor:pointer;padding:5px 4px 0 0;color:#004bca;height:17px;line-height:14px;text-align:right;text-decoration:underline;background:#edf7ff}
+#nav .nav_con a.col {display: block;float: left;height: 40px;line-height: 40px;color: #b9b9b9;font-size: 13px;margin-right: 15px;}
+#nav .nav_con a.col:hover{color:#eee;}
+#nav .nav_con a.sort{background: url(http://css.17yy.com/images/sort.png?v=1) no-repeat 9px 50%;padding-left: 28px;}
+#nav .nav_con a.sort:hover{background: url(http://css.17yy.com/images/sort2.png?v=1) no-repeat 9px 50%;}
+#nav .nav_con .nav_login{overflow:hidden;}
+#nav .nav_con a.uname{font-weight:bold;color:#f60;}
+#nav .nav_con a.uname:hover{color:#f6873d;}
+
+.footer {width: 1200px;margin: 5px auto 10px auto;text-align: left;color: #5E5E5E;position: relative;margin-top: 50px;padding-top: 15px;font-size: 12px;}
+.footer p,.footer span{text-align: center;line-height: 26px;color: #999;font-size:12px;}
+.footer a{font-size:12px;color: #999;}
+
+
+#ztSort_wrapper,#ztSort_con{position:fixed;left:0;width:100%;}
+#ztSort_wrapper{bottom:0;z-index:9999;height:100%;background: #000;opacity:0.5;filter:alpha(opacity=50);}
+#ztSort_con{z-index:10000;height:520px;background:#f1f1f1;text-align:center;display:table;}
+#ztSort_con .close_btn{float:right;display:block;width:60px;height:60px;background:url(http://css.17yy.com/images/yeyou/close_wrap.png) no-repeat;}
+#ztSort_con h1{font-size:34px;padding:20px 0 15px;}
+#moreZt{width:1200px;margin:20px auto 0;text-align:left;height:500px;overflow: hidden;overflow-y: auto;}
+#moreZt ul{overflow:hidden;margin-left:30px;}
+#moreZt ul li{float:left;background:#fff;padding:6px;border:1px solid #ddd;margin: 0 10px 10px 0;}
+#moreZt ul li:hover span.fl{color:#ff6501;}
+#moreZt ul li a,#moreZt ul li span{display:block;height:35px;line-height:35px;font-size:14px;}
+#moreZt ul li .zt_info{float:left;margin-left:10px;overflow:hidden;width:160px;}
+#moreZt ul li span.fl{width:80px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;color:#333;}
+#moreZt ul li span.fr{color:#999;font-family:Arial;}
+#moreZt::-webkit-scrollbar{width: 6px;height: 1px;}
+#moreZt::-webkit-scrollbar-thumb{border-radius: 10px;background: #ccc;}
+#moreZt::-webkit-scrollbar-track{border-radius: 10px;background: #EDEDED;}
